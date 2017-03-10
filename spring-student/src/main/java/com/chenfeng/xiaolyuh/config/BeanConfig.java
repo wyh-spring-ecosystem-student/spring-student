@@ -12,7 +12,7 @@ import com.chenfeng.xiaolyuh.entity.InitBeanAndDestroyBean;
  */
 @Configuration // 声明当前类是一个配置类，相当于Spring配置的XML文件
 @ComponentScan("com.chenfeng.xiaolyuh") // 扫描包
-public class MyConfig {
+public class BeanConfig {
 	
 	@Bean // 注解在方法上，声明当前方法返回值是一个Bean。Bean的名称默认是方法名。
 	public DogEntity getDogEntity() {

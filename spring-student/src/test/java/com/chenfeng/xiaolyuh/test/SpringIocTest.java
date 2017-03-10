@@ -4,7 +4,7 @@ import org.junit.After;
 import org.junit.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-import com.chenfeng.xiaolyuh.config.MyConfig;
+import com.chenfeng.xiaolyuh.config.BeanConfig;
 import com.chenfeng.xiaolyuh.entity.CatEntity;
 import com.chenfeng.xiaolyuh.entity.DogEntity;
 import com.chenfeng.xiaolyuh.entity.InitBeanAndDestroyBean;
@@ -15,7 +15,7 @@ import com.chenfeng.xiaolyuh.service.FunctionService;
  */
 public class SpringIocTest {
 	// 使用容器
-    AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(MyConfig.class, CatEntity.class);
+    AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(BeanConfig.class, CatEntity.class);
 
     @Test
     public void contextTest() {
