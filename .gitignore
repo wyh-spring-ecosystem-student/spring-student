@@ -1,0 +1,15 @@
+monoz_server/api_doc/admin_api/_book
+*.project
+.settings
+.idea
+target
+node_modules
+bower_components
+.classpath
+*.log
+*.springBeans
+monoz_server/tools/mybatis-generator-usage/src/main/java/
+monoz_static/monoz-admin/node_modules/
+monoz_static/monoz-admin/bower_components/
+monoz_static/.idea/
+filter-dev-env.properties
