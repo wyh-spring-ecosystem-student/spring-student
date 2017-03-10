@@ -1,24 +1,9 @@
 # spring-student
-Spring学习实例
+Spring学习实例包含以下类容：
 
-## 使用容器AnnotationConfigApplicationContext
-初始化容器是需要传入一个配置类（包含@Configuration注解的类）
+入口类SpringIocTest.java
 
-## 配置类
-<code>
-@Configuration // 声明成配置文件
-@ComponentScan("com.chenfeng.xiaolyuh") // 扫描包
-public class MyConfig {
-	
-	@Bean // 声明成一个begin，名字默认是方法名
-	public DogEntity getDogEntity() {
-		return new DogEntity();
-	}
-
-	// 测试Bean的几种初始化和销毁方式，和执行顺序
-	@Bean(initMethod="initMethod", destroyMethod="destroyMethod")
-	public InitBeanAndDestroyBean initBeanAndDestroyBean() {
-		return new InitBeanAndDestroyBean();
-	}
-}
-<code>
+1、AnnotationConfigApplicationContext容器的使用
+2、配置类MyConfig.java的基本写法
+3、Bean的注入方式
+4、Bean的初始化和销毁的三种实现方式和执行顺序
