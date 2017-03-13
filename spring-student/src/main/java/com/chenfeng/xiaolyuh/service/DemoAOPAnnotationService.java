@@ -12,7 +12,7 @@ import com.chenfeng.xiaolyuh.annotation.Action;
  * @version 1.0.0
  */
 @Service
-public class DemoAnnotationService {
+public class DemoAOPAnnotationService {
 	
 	@Action(name="编写使用注解的被拦截类")
 	public void add() {

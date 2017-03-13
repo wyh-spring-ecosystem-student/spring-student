@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
  * @version 1.0.0
  */
 @Service
-public class DemoMethodService {
+public class DemoAOPMethodService {
 	
 	public void add() {
 		System.out.println("使用方法规则被拦截类DemoMethodService:add");
