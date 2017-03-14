@@ -1,4 +1,4 @@
-package com.chenfeng.xiaolyuh.entity;
+package com.chenfeng.xiaolyuh.bean.entity;
 
 import org.springframework.stereotype.Component;
 

@@ -4,9 +4,9 @@ import org.junit.After;
 import org.junit.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-import com.chenfeng.xiaolyuh.config.AopConfig;
-import com.chenfeng.xiaolyuh.service.DemoAOPAnnotationService;
-import com.chenfeng.xiaolyuh.service.DemoAOPMethodService;
+import com.chenfeng.xiaolyuh.aop.config.AopConfig;
+import com.chenfeng.xiaolyuh.aop.service.DemoAOPAnnotationService;
+import com.chenfeng.xiaolyuh.aop.service.DemoAOPMethodService;
 
 /**
  * Created by yuhao.wang on 2017/3/9.

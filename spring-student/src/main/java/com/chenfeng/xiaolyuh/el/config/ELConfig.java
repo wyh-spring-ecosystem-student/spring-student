@@ -1,4 +1,4 @@
-package com.chenfeng.xiaolyuh.config;
+package com.chenfeng.xiaolyuh.el.config;
 
 import java.io.IOException;
 
@@ -11,6 +11,9 @@ import org.springframework.context.annotation.FilterType;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.core.env.Environment;
 import org.springframework.core.io.Resource;
+
+import com.chenfeng.xiaolyuh.aop.config.AopConfig;
+import com.chenfeng.xiaolyuh.bean.config.BeanConfig;
 
 @Configuration // 声明当前类是一个配置类，相当于Spring配置的XML文件
 // 包扫描，并排除了对BeanConfig的扫描

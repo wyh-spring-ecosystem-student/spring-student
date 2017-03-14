@@ -1,9 +1,9 @@
-package com.chenfeng.xiaolyuh.service;
+package com.chenfeng.xiaolyuh.bean.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.chenfeng.xiaolyuh.entity.FunctionEntity;
+import com.chenfeng.xiaolyuh.bean.entity.FunctionEntity;
 
 /**
  * Created by yuhao.wang on 2017/3/9.

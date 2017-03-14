@@ -1,4 +1,4 @@
-package com.chenfeng.xiaolyuh.annotation;
+package com.chenfeng.xiaolyuh.aop.annotation;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;

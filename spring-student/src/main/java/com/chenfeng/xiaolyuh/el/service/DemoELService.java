@@ -1,4 +1,4 @@
-package com.chenfeng.xiaolyuh.service;
+package com.chenfeng.xiaolyuh.el.service;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;

@@ -1,11 +1,11 @@
-package com.chenfeng.xiaolyuh.config;
+package com.chenfeng.xiaolyuh.bean.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
-import com.chenfeng.xiaolyuh.entity.DogEntity;
-import com.chenfeng.xiaolyuh.entity.InitBeanAndDestroyBean;
+import com.chenfeng.xiaolyuh.bean.entity.DogEntity;
+import com.chenfeng.xiaolyuh.bean.entity.InitBeanAndDestroyBean;
 
 /**
  * Created by yuhao.wang on 2017/3/9.

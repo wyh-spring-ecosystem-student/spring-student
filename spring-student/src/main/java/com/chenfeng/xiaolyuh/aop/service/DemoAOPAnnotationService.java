@@ -1,8 +1,8 @@
-package com.chenfeng.xiaolyuh.service;
+package com.chenfeng.xiaolyuh.aop.service;
 
 import org.springframework.stereotype.Service;
 
-import com.chenfeng.xiaolyuh.annotation.Action;
+import com.chenfeng.xiaolyuh.aop.annotation.Action;
 
 /**
  * 编写使用注解的被拦截类

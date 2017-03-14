@@ -1,4 +1,4 @@
-package com.chenfeng.xiaolyuh.entity;
+package com.chenfeng.xiaolyuh.bean.entity;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;

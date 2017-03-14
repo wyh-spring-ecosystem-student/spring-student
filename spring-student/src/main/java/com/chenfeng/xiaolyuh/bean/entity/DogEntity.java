@@ -1,9 +1,9 @@
-package com.chenfeng.xiaolyuh.entity;
+package com.chenfeng.xiaolyuh.bean.entity;
 
 /**
  * Created by yuhao.wang on 2017/3/9.
  */
-public class CatEntity {
+public class DogEntity {
     public String say() {
         return "Hello!" + this.getClass().getName();
     }

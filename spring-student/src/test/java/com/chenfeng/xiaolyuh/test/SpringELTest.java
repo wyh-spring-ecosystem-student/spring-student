@@ -4,7 +4,7 @@ import org.junit.After;
 import org.junit.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-import com.chenfeng.xiaolyuh.config.ELConfig;
+import com.chenfeng.xiaolyuh.el.config.ELConfig;
 
 /**
  * Created by yuhao.wang on 2017/3/9.

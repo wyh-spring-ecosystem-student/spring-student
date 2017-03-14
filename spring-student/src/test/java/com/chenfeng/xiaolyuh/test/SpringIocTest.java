@@ -4,11 +4,11 @@ import org.junit.After;
 import org.junit.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-import com.chenfeng.xiaolyuh.config.BeanConfig;
-import com.chenfeng.xiaolyuh.entity.CatEntity;
-import com.chenfeng.xiaolyuh.entity.DogEntity;
-import com.chenfeng.xiaolyuh.entity.InitBeanAndDestroyBean;
-import com.chenfeng.xiaolyuh.service.FunctionService;
+import com.chenfeng.xiaolyuh.bean.config.BeanConfig;
+import com.chenfeng.xiaolyuh.bean.entity.CatEntity;
+import com.chenfeng.xiaolyuh.bean.entity.DogEntity;
+import com.chenfeng.xiaolyuh.bean.entity.InitBeanAndDestroyBean;
+import com.chenfeng.xiaolyuh.bean.service.FunctionService;
 
 /**
  * Created by yuhao.wang on 2017/3/9.
