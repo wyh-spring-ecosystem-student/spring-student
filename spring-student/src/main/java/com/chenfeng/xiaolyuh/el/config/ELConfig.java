@@ -18,7 +18,7 @@ import com.chenfeng.xiaolyuh.bean.config.BeanConfig;
 @Configuration // 声明当前类是一个配置类，相当于Spring配置的XML文件
 // 包扫描，并排除了对BeanConfig的扫描
 @ComponentScan(basePackages={"com.chenfeng.xiaolyuh"}, excludeFilters={@ComponentScan.Filter(type=FilterType.ASSIGNABLE_TYPE, value={BeanConfig.class, AopConfig.class})})
-@PropertySource("classpath:el-test.properties")// 指定文件地址
+@PropertySource("classpath:el/test.properties")// 指定文件地址
 public class ELConfig {
 	@Value("注入普通字符串")// 注入普通字符串
 	private String normal;
@@ -32,7 +32,7 @@ public class ELConfig {
 	@Value("#{demoELService.another}")// 注入其他Bean属性
 	private String fromAnother;
 	
-	@Value("classpath:el-test.txt")// 注入文件资源
+	@Value("classpath:el/test.txt")// 注入文件资源
 	private Resource testFile;
 	
 	@Value("https://www.baidu.com")// 注入网址资源
