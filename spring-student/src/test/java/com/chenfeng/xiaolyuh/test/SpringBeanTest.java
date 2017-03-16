@@ -13,7 +13,7 @@ import com.chenfeng.xiaolyuh.bean.service.FunctionService;
 /**
  * Created by yuhao.wang on 2017/3/9.
  */
-public class SpringIocTest {
+public class SpringBeanTest {
 	// 使用容器
     AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(BeanConfig.class, CatEntity.class);
 
