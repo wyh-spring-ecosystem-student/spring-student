@@ -10,6 +10,7 @@ Spring学习实例包含以下类容(入口类SpringIocTest.java)：
 + Spring Event Spring事件相关知识
 + Spring Aware Spring感知相关知识
 + Spring 定时任务相关知识
++ Spring Spring 条件注解（@Conditional）相关知识
 
 对应博客地址：
 + Spring bean 的初始化和销毁的三种方式和执行顺序：http://blog.csdn.net/xiaolyuh123/article/details/61196044
@@ -20,3 +21,4 @@ Spring学习实例包含以下类容(入口类SpringIocTest.java)：
 + Spring Aware ：http://blog.csdn.net/xiaolyuh123/article/details/62418598
 + Spring 多线程 ：http://blog.csdn.net/xiaolyuh123/article/details/62886739
 + Spring 定时任务 ：http://blog.csdn.net/xiaolyuh123/article/details/62892216
++ Spring 条件注解（@Conditional） ：http://blog.csdn.net/xiaolyuh123/article/details/64124828
