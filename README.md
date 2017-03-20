@@ -16,6 +16,7 @@ Spring学习实例包含以下类容(入口类SpringIocTest.java)：
 + Spring bean 的初始化和销毁的三种方式和执行顺序：http://blog.csdn.net/xiaolyuh123/article/details/61196044
 + 声明Spring Bean和注入Bean的几种常用注解和区别：http://blog.csdn.net/xiaolyuh123/article/details/61196236
 + Spring Bean的Scope：http://blog.csdn.net/xiaolyuh123/article/details/61917582
++ Spring AOP：http://blog.csdn.net/xiaolyuh123/article/details/64128032
 + Spring EL：http://blog.csdn.net/xiaolyuh123/article/details/61924447
 + Spring 事件：http://blog.csdn.net/xiaolyuh123/article/details/62042667
 + Spring Aware ：http://blog.csdn.net/xiaolyuh123/article/details/62418598
