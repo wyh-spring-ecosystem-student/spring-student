@@ -12,6 +12,7 @@ Spring学习实例包含以下类容(入口类SpringIocTest.java)：
 + Spring 定时任务相关知识
 + Spring Spring 条件注解（@Conditional）相关知识
 + 组合注解和元注解相关知识
++ Spring Test相关知识
 
 对应博客地址：
 + Spring bean 的初始化和销毁的三种方式和执行顺序：http://blog.csdn.net/xiaolyuh123/article/details/61196044
@@ -25,3 +26,4 @@ Spring学习实例包含以下类容(入口类SpringIocTest.java)：
 + Spring 定时任务 ：http://blog.csdn.net/xiaolyuh123/article/details/62892216
 + Spring 条件注解（@Conditional） ：http://blog.csdn.net/xiaolyuh123/article/details/64124828
 + Spring 组合注解和元注解相关知识：http://blog.csdn.net/xiaolyuh123/article/details/66968883
++ Spring Test相关知识：http://blog.csdn.net/xiaolyuh123/article/details/66971018
