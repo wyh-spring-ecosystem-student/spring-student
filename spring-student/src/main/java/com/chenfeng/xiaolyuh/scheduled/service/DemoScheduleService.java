@@ -23,7 +23,7 @@ public class DemoScheduleService {
 		System.out.println("在指定时间执行 " + dateFormat.format(new Date()));
 	}
 
-	@Scheduled()
+	@Scheduled(fixedDelay = 4000)
 	public void fixedDelayExecution() {
 		System.out.println("fixedDelay 在指定时间执行 " + dateFormat.format(new Date()));
 	}
